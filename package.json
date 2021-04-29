@@ -1,0 +1,23 @@
+{
+  "name": "medga",
+  "version": "1.0.0",
+  "description": "A work-in-progress game",
+  "main": "index.html",
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurteisseire/Medga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurteisseire/Medga/issues"
+  },
+  "homepage": "https://github.com/arthurteisseire/Medga#readme"
+}
