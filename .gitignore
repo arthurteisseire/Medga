@@ -6,3 +6,10 @@
 target/
 build/
 bin/
+.bsp/
+
+# Node
+node_modules/
+
+# Intelliji
+.idea
