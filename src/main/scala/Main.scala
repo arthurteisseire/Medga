@@ -1,5 +1,6 @@
 import org.scalajs.dom
 import org.scalajs.dom.document
+import scala.scalajs.js.annotation.JSExportTopLevel
 
 object Main extends App {
   println("Hello, World!") // In console
@@ -10,5 +11,10 @@ object Main extends App {
     val parNode = document.createElement("p")
     parNode.textContent = text
     targetNode.appendChild(parNode)
+  }
+
+  @JSExportTopLevel("addClickedMessage")
+  def addClickedMessage(): Unit = {
+    appendPar(document.body, "You clicked the button!")
   }
 }
